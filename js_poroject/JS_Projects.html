@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS projects</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- navbar section starts  -->
+
+<nav class="navbar">
+ <!--   <a href="home.html"> <i class="fas fa-home"></i> <span>Home</span> </a>
+    <a href="about.html"> <i class="fas fa-user"></i> <span>About</span> </a>
+    <a href="Projects.html"> <i class="fas fa-briefcase"></i> <span>Projects</span> </a>
+    <a href="blogs.html"> <i class="fas fa-blog"></i> <span>Blogs</span> </a>
+ <a href="contact.html"> <i class="fas fa-address-book"></i> <span>Contact</span> </a>
+ -->   <img src="images/moon.png" id="icon">
+</nav>
+
+<!-- navbar section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio">
+
+    <h1 class="heading"> <span>Java Script</span> Projects </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/alarm.jpeg" alt="Alarm Clock">
+            <div class="content">
+                <h3>project 01</h3>
+                <p>
+                    In this Alarm Clock, there is a digital clock that showsthe current time along with
+                 some alarm. Users can select a time and set alarms for any time, whether AM or PM.
+                </p>
+                <a href="Alarm Clock in JavaScript/index.html">Set Alarm</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/language_translate.jpeg" alt="Language Translator">
+            <div class="content">
+                <h3>project 02</h3>
+                <p>
+                    Language translator is  used to translate text into multiple languages like Gujarati, Hindi, Spanish, etc. 
+                     users can easily translate text into different languages, copy translated text, and convert text to speech. It is similar to Google Translate.   
+                </p> 
+                <a href="Language Translator App in JavaScript/index.html">translate language</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/tic toc tae.jpeg" alt="Tic Tac Toe game">
+            <div class="content">
+                <h3>project 03</h3>
+                <p></p>
+                <a href="Tic Tac Toe/index.html">Let's play</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/To-do.jpeg" alt="To Do list">
+            <div class="content">
+                <h3>project 04</h3>
+                <p>
+                 This one is a minimal To-Do List s based on jQuery. In this to-do list you can add or delete tasks...
+                 to delete you just hover item and click to trash icon 
+                </p>
+                <a href="To Do List/ToDo.html">Set To Do List</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/typing test.jpeg" alt="Typing test">
+            <div class="content">
+                <h3>project 05</h3>
+                <p>
+                    Typing speed test is a game where you can check your typing speed like WPM 
+                    (Word Per Minute), CPM (Character Per Minute), Accuracy, etc.  Once you start typing, you'll see your
+                     time, mistakes, WPM, and CPM at the bottom.
+                    </p>
+                <a href="Typing Speed Test Game in JavaScript/index.html">Check typing speed</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/calculator.jpeg" alt="Calculator">
+            <div class="content">
+                <h3>project 06</h3>
+                <p>
+                    This is a basic Calculator using simple java script..
+                </p>
+                <a href="Calculator/calculator.html">Calculate</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/drawing.jpeg" alt="Drawing App">
+            <div class="content">
+                <h3>project 07</h3>
+                <p>
+                    In this drawing app, users can draw different shapes like rectangles, circles, and triangles 
+                    in their preferred colors. They can also erase or download their drawing as an image. 
+                </p>
+                <a href="Drawing App JavaScript/index.html">Let's Draw</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/img-1.png" alt="Live Clock">
+            <div class="content">
+                <h3>project 08</h3>
+                <p>In this project I made live 12 hr clock with help of html,css & js only..  </p>
+                <a href="Projects/clock.html">What is Time ?</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/img-2.jpeg" alt="Basic Game">
+            <div class="content">
+                <h3>project 09</h3>
+                <p>In this project I make very basic game with HTML & Javascript</p>
+                <a href="Projects/game.html">Play Game</a>
+            </div>
+        </div>
+       
+        
+
+    </div>
+
+    <a href=" https://meeeeetshah.github.io/My-Portfolio/p%20portfolio%202/Projects.html" class="btn"> load more <i class="fas fa-redo"></i> </a>
+    
+</section>
+
+<script>
+    var icon=document.getElementById("icon");
+ 
+    icon.onclick=function()
+    {
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme"))
+        {
+            icon.src="images/sun.png";
+        }
+            else
+            {
+             icon.src="images/moon.png";  
+            }
+        
+    }
+ 
+ </script>
+<!-- portfolio section ends -->
+
+</body>
+</html>
